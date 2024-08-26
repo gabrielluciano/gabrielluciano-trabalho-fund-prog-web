@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portifólio</title>
+    <!-- Arquivo CSS externo -->
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Arquivo JavaScript externo -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <nav>
+        <ul>
+          <!-- Links para navegação -->
+          <li><a href="/">Sobre</a></li>
+          <li><a href="formacao.html">Formação</a></li>
+          <li><a href="portifolio.html">Portifólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN: conteúdo principal da página -->
+    <main>
+      <!-- Seção Portifólio -->
+      <section class="portifolio">
+        <h1 class="page-title gradient-text">Portifólio</h1>
+
+        <!-- Lista de projetos -->
+        <!-- Cada item da lista corresponde a um Article para melhorar a semântica -->
+        <ul>
+          <li>
+            <article>
+              <h2>
+                <a href="https://aritmetika.com.br" target="_blank">Aritmetika</a>
+              </h2>
+              <a href="https://aritmetika.com.br" target="_blank">
+                <img
+                  src="assets/aritmetika.webp"
+                  alt="Página principal do Aritmetika.com.br"
+                />
+              </a>
+              <p>
+                Site de conversão de unidades criado com Laravel, TypeScript e
+                TailwindCSS
+              </p>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h2>
+                <a href="https://blog.gabrielluciano.com" target="_blank">
+                  Blog Pessoal
+                </a>
+              </h2>
+              <a href="https://blog.gabrielluciano.com" target="_blank">
+                <img src="assets/blog-pessoal.webp" alt="Home do blog pessoal" />
+              </a>
+              <p>
+                Blog construído com backend em Spring Boot e frontend em Angular
+              </p>
+              <a
+                class="repository"
+                href="https://github.com/gabrielluciano/personal-blog"
+                target="_blank"
+              >
+                Repositório
+              </a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h2>
+                <a
+                  href="https://editor-html-react-e-draftjs.vercel.app"
+                  target="_blank"
+                >
+                  Editor WYSIWYG
+                </a>
+              </h2>
+              <a
+                href="https://editor-html-react-e-draftjs.vercel.app"
+                target="_blank"
+              >
+                <img src="assets/editor.webp" alt="Editor WYSIWYG" />
+              </a>
+              <p>Editor WYSIWYG construído com React e DraftJS</p>
+              <a
+                class="repository"
+                href="https://github.com/gabrielluciano/editor-html-react-e-draftjs"
+                target="_blank"
+              >
+                Repositório
+              </a>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h2>
+                <a
+                  href="https://github.com/gabrielluciano/reajustesalarial"
+                  target="_blank"
+                >
+                  API de Reajuste Salarial
+                </a>
+              </h2>
+              <a
+                href="https://github.com/gabrielluciano/reajustesalarial"
+                target="_blank"
+              >
+                <img
+                  src="assets/reajustesalarial.webp"
+                  alt="Repositório da API de Reajuste Salarial"
+                />
+              </a>
+              <p>API de Reajuste Salarial construída com Spring Boot</p>
+            </article>
+          </li>
+
+          <li>
+            <article>
+              <h2>
+                <a
+                  href="https://github.com/gabrielluciano/rinha-backend-2024-q1-vertx"
+                  target="_blank"
+                >
+                  API Rinha de Backend 2024 Java
+                </a>
+              </h2>
+              <a
+                href="https://github.com/gabrielluciano/rinha-backend-2024-q1-vertx"
+                target="_blank"
+              >
+                <img
+                  src="assets/rinha-backend-2024-java.webp"
+                  alt="Repositório da API da Rinha de Backend"
+                />
+              </a>
+              <p>
+                API da Rinha de Backend 2024 com controle de transações construída
+                em Java com o Eclipse Vert.x
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>Produzido por <span>Gabriel Luciano</span></p>
+    </footer>
+  </body>
+</html>

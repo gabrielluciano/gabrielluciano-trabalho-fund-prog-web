@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato</title>
+    <!-- Arquivo CSS externo -->
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Arquivo JavaScript externo -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <nav>
+        <ul>
+          <!-- Links para navegação -->
+          <li><a href="/">Sobre</a></li>
+          <li><a href="formacao.html">Formação</a></li>
+          <li><a href="portifolio.html">Portifólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN: conteúdo principal da página -->
+    <main>
+      <h1 class="page-title gradient-text">Contato</h1>
+      <!-- Seção formulário de contato -->
+      <section class="contact-form">
+        <form action="" method="GET">
+          <div class="field">
+            <!-- Uso de label associada ao formulário 
+             para melhorar acessibilidade -->
+            <label for="nome">Nome</label>
+            <input
+              id="nome"
+              type="text"
+              name="nome"
+              value=""
+              placeholder="Seu nome"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              value=""
+              placeholder="seu@email.com"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              type="text"
+              name="mensagem"
+              value=""
+              rows="5"
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>Produzido por <span>Gabriel Luciano</span></p>
+    </footer>
+  </body>
+</html>
